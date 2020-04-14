@@ -1,0 +1,5 @@
+total_seconds = input("Введите время в секундах ")
+hours = int(int(total_seconds)/3600)
+minutes = int((int(total_seconds)%3600)/60)
+seconds = int((int(total_seconds)%3600)%60)
+print("Это время равно {:>02}:{:>02}:{:>02}".format(hours,minutes,seconds))
